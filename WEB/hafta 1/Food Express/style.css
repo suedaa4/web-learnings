@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #E0FFFF;
+    margin: 0;
+}
+
+header {
+    background-color:#c6f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.menu{
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-item{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.reviews{
+     text-align: center;
+}
